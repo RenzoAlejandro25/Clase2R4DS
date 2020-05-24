@@ -60,3 +60,5 @@ month.name
 
 RetailMes <- RetailMes[order(match(RetailMes$Month, month.abb)),]
 
+help("table")
+sessionInfo()
