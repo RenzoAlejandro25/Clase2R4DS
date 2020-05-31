@@ -34,7 +34,7 @@ rownames(mat3)
 help("sample")
 mat4 <- matrix(data=sample(1:129,9), ncol=3)
 mat4[2,2] #Mostramos el elemento (2,2)
-mat4[2,2] <- pi#modificamos el valor del elemento (2,2)
+mat4[2,2] <- pi #modificamos el valor del elemento (2,2)
 mat4[,3]
 mat4[3,]
 
